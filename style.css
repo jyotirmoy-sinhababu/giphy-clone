@@ -1,0 +1,142 @@
+body {
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+  background-color: black;
+}
+.header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: black;
+}
+.nav_logo {
+  display: flex;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav_name {
+  font-size: 2.5rem;
+  height: 70px;
+  padding: 10px;
+  margin: 10px;
+  color: aliceblue;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.nav_link {
+  padding: 15px;
+  margin: 5px;
+}
+.nav_button {
+  display: flex;
+}
+.btn {
+  height: 40px;
+  width: 80px;
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+  background-color: rgb(97, 97, 220);
+  border: none;
+}
+.nav_log {
+  display: flex;
+  background-color: rgb(62, 62, 62);
+  height: 36px;
+  width: 150px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.input {
+  width: 100%;
+  max-width: 1130px;
+  height: 52px;
+  z-index: 2;
+  border: none;
+}
+.image {
+  height: 54px;
+  width: 70px;
+  padding-left: 15px;
+
+  background-image: linear-gradient(
+    45deg,
+    rgb(153, 51, 255) 0%,
+    rgb(255, 102, 102) 50%,
+    rgb(153, 51, 255) 100%
+  );
+}
+.board {
+  margin: 20px auto;
+}
+.billboard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1220px;
+  z-index: 1;
+}
+.trending {
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head {
+}
+.main {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  border: 2px white;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  border: 1px white;
+  height: 100px;
+}
+.content {
+  height: 900px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.searched_item {
+  height: 80px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.display {
+  height: 810px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
